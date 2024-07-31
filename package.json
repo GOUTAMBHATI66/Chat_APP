@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon Backend/server.js",
-    "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
+    "start": "node Backend/server.js",
+    "server": "nodemon Backend/server.js",
+    "build": "npm install && npm install --prefix Frontend && npm run build "
   },
   "author": "Goutam Bhati",
   "license": "ISC",
